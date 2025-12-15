@@ -5,7 +5,7 @@ Then run the script in dehaze_part.ipynb to generate you labels in yoloV\v8 styl
 The same file has a script to divide the dataset into training, validation and testing sets. And also script to train your model if you wish to train it. If you do not wish to train your dataset then you can use the best.pt model weights that we have already provided  
 
 Next the same file has a script to add perlin noise fog into the chosen testing images. 
-To generate mnono depth estimated fog, followinstructions on this github: https://github.com/tranleanh/haze-synthesis  
+To generate mnono depth estimated fog, follow instructions on this github: https://github.com/tranleanh/haze-synthesis  
 Now you have the complete dataset for synthetic generated fog.  
 
 The same file has runs to test on various datasets and also on the dataset that you will generate for low light.  
@@ -13,9 +13,11 @@ The same file has runs to test on various datasets and also on the dataset that 
 For generating your dataset for fog and low light correction, follow the scripts in fog_lowLight.ipynb file. There is a systematic way you can change the output and inpur directories according to your structures. This will help you to systematically build your dataset.  
 
 Now you have the following:  
-Ground truth distortion free images and thier labels.  
+Ground truth distortion free images and their labels.  
 Images from the test set and added haze to them.  
-images from test set and added low light to them.  
+Images from test set and added low light to them.  
 Use the same labels from the original test set directory for all these.
 
 Now follow the dehaze_part.ipynb file to test your images yaml files. We have provided a samle yaml file to help you build your own yaml files.
+
+For motion blur, follow instructions in the trafficsign-detection-yolov8-motionblur.ipynb file to train, validate, and test the motion blur methods.

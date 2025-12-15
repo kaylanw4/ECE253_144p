@@ -10,4 +10,12 @@ Now you have the complete dataset for synthetic generated fog.
 
 The same file has runs to test on various datasets and also on the dataset that you will generate for low light.  
 
-Follow the script in synthetic_lowlight.ipynb to generate your low_light dataset
+For generating your dataset for fog and low light correction, follow the scripts in fog_lowLight.ipynb file. There is a systematic way you can change the output and inpur directories according to your structures. This will help you to systematically build your dataset.  
+
+Now you have the following:  
+Ground truth distortion free images and thier labels.  
+Images from the test set and added haze to them.  
+images from test set and added low light to them.  
+Use the same labels from the original test set directory for all these.
+
+Now follow the dehaze_part.ipynb file to test your images yaml files. We have provided a samle yaml file to help you build your own yaml files.

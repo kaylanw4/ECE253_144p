@@ -9,3 +9,5 @@ To generate mnono depth estimated fog, followinstructions on this github: https:
 Now you have the complete dataset for synthetic generated fog.  
 
 The same file has runs to test on various datasets and also on the dataset that you will generate for low light.  
+
+Follow the script in synthetic_low_light.ipynb to generate your low_light dataset

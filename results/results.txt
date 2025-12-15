@@ -1,0 +1,1 @@
+add you output images here. names with results_ in them are predictions from the detection model. images with dcp in thier name are images with removed hazxe with DCP, similar for hybrid
